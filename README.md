@@ -2,6 +2,9 @@
 
 This is a fairly straightforward automation framework set up in intelliJ using maven. 
 
+The framework includes a test page separate from the functions so that these may only need to be updated once if needed.
+There is a interface class which serves as the base of the automation functions. The AutomatedBrowserBase implements this interface to form the functions and then 'decorators' are created for the webdriver commands which are directly called in the test. 
+
 Please import the pom.xml file when initiating the project. 
 
 The only setup needed is to specify the location of the chromedriver and/or the firefox driver. This can be found in the pom.xml -> plugins -> systemPropertyVariables and update accordingly. 
