@@ -16,3 +16,4 @@ The actions in order are:
 - Enter username and password (not real credentials)
 - Close this box and navigate to homepage 
 - Verify an element is available on the homepage
+- Close browser
